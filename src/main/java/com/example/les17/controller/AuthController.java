@@ -44,6 +44,5 @@ public class AuthController {
             catch (AuthenticationException ex) {
                 return new ResponseEntity(ex.getMessage(), HttpStatus.UNAUTHORIZED);
             }
-
     }
 }

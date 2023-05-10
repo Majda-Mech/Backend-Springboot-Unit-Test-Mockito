@@ -46,6 +46,5 @@ class OrderControllerTest {
                 .andExpect(MockMvcResultMatchers.jsonPath("$.productname", is("Batavus fiets")))
                 .andExpect(MockMvcResultMatchers.jsonPath("$.unitprice", is(1500.0)))
                 .andExpect(MockMvcResultMatchers.jsonPath("$.quantity", is(5)));
-
     }
 }
